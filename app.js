@@ -12,16 +12,16 @@ secondNumber = Number(prompt("Enter the second number: "));
 operator = prompt("Enter the operator: ");
 
 if (operator === "+") {
-    result = firstNumber * secondNumber;
+    result = firstNumber + secondNumber;
 }
 else if (operator === "-") {
-    result = firstNumber * secondNumber;
+    result = firstNumber - secondNumber;
 }
 else if (operator === "/") {
     result = firstNumber / secondNumber;
 }
 else if (operator === "*") {
-    result = firstNumber - secondNumber;
+    result = firstNumber * secondNumber;
 }
 
 console.log(result);
