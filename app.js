@@ -14,6 +14,12 @@ operator = prompt("Enter the operator: ");
 if (operator === "+") {
     result = firstNumber + secondNumber;
 }
+else if (operator === "*") {
+    result = firstNumber * secondNumber;
+}
+else if (operator === "/") {
+    result = firstNumber / secondNumber;
+}
 else if (operator === "-") {
     result = firstNumber - secondNumber;
 }
