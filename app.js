@@ -11,16 +11,16 @@ firstNumber = Number(prompt("Enter the first number: "));
 secondNumber = Number(prompt("Enter the second number: "));
 operator = prompt("Enter the operator: ");
 
-if (operator === "*") {
+if (operator === "+") {
     result = firstNumber * secondNumber;
 }
-else if (operator === "*") {
+else if (operator === "-") {
     result = firstNumber * secondNumber;
 }
 else if (operator === "/") {
     result = firstNumber / secondNumber;
 }
-else if (operator === "-") {
+else if (operator === "*") {
     result = firstNumber - secondNumber;
 }
 
